@@ -1,0 +1,16 @@
+:root {
+  --color-primary: #1e90ff;
+  --color-secondary: #fff;
+  --background-color: #fff;
+  --text-color: #000;
+  --text-inverted: #fff;
+}
+
+body {
+  font-family: 'system-ui', verdana;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: var(--background-color);
+
+}
