@@ -10,7 +10,6 @@
     cursor: pointer;
   }
 
-
   &--light {
     background-color: #fff;
   }
@@ -42,7 +41,6 @@
   &--barrel-roll {
     &:active {
       transition: 0.5s;
-      // transform: rotateZ(360deg);
       animation: rotate 0.5s infinite linear forwards;
     }
   }

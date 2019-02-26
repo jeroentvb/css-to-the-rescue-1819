@@ -15,10 +15,22 @@
 
 @keyframes rotate {
   from {
-    transform: rotateZ(0deg);
+    transform: rotateZ(0deg) scale(1.5);
   }
   to {
-    transform: rotateZ(360deg);
+    transform: rotateZ(360deg) scale(1.5);
+  }
+}
+
+@keyframes rotateAndScale {
+  0% {
+    transform: rotateZ(0deg) scale(0.5);
+  }
+  50% {
+    transform: rotateZ(180deg) scale(0.8);
+  }
+  100% {
+    transform: rotateZ(360deg) scale(0.5);
   }
 }
 
@@ -49,5 +61,17 @@
   }
   100% {
     transform: translateX(1rem);
+  }
+}
+
+@keyframes blowUp {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(5);
+  }
+  100% {
+    transform: scale(1);
   }
 }

@@ -1,12 +1,7 @@
 :root {
   --color-primary: #1e90ff;
   --color-secondary: #ff3561;
-  --background-color: #fff;
-  --text-color: #000;
-  --text-inverted: #fff;
-
-  --gradient: linear-gradient(to bottom, #29d1b2 0%,#00c3ff 100%);
-
+  --gradient: linear-gradient(to bottom, var(--color-primary) 0%,var(--color-secondary) 100%);
   --invert: invert(0%);
   --invert-color: #fff;
 }
@@ -19,9 +14,4 @@ body {
   background-color: var(--invert-color);
   overflow-x: hidden;
   filter: var(--invert);
-  // background: var(--gradient);
 }
-
-// * {
-//   box-sizing: border-box;
-// }
