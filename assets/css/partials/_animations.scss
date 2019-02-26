@@ -1,0 +1,53 @@
+@keyframes wiggle {
+  0% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  75% {
+    transform: rotateZ(10deg);
+  }
+  100% {
+    transform: rotateZ(-10deg);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes keyboard-1 {
+  0% {
+    transform: translateX(1rem);
+  }
+  33% {
+    transform: translateX(-1rem);
+  }
+  66% {
+    transform: translateX(2rem);
+  }
+  100% {
+    transform: translateX(-1rem);
+  }
+}
+
+@keyframes keyboard-2 {
+  0% {
+    transform: translateX(-1rem);
+  }
+  33% {
+    transform: translateX(1rem);
+  }
+  66% {
+    transform: translateX(-2rem);
+  }
+  100% {
+    transform: translateX(1rem);
+  }
+}
