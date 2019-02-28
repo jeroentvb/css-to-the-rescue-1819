@@ -228,4 +228,42 @@ body {
   animation: cycleColor 2s linear infinite forwards;
 }
 
+@media (max-width: 900px) {
+  .main, .footer, .section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section--next-to-aside {
+    width: inherit;
+    transform: translateX(0);
+  }
+
+  .figure--left {
+    margin-bottom: 4rem;
+    margin-left: 0;
+  }
+  .figure--right {
+    margin-left: 0;
+  }
+  .figure--block {
+    width: 100%;
+  }
+  .figure--full-width {
+    overflow: hidden;
+  }
+
+  .svg--keyboard {
+    transform: scale(1);
+  }
+
+  .aside {
+    transform: translateX(0);
+  }
+
+  .footer__section {
+    padding: 1rem;
+  }
+}
+
 /*# sourceMappingURL=styles.stripped.css.map */
