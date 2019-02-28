@@ -1,0 +1,41 @@
+@media (max-width: 900px) {
+  .main, .footer, .section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section {
+    &--next-to-aside {
+      width: inherit;
+      transform: translateX(0);
+    }
+  }
+
+  .figure {
+    &--left {
+      margin-bottom: 4rem;
+      margin-left: 0;
+    }
+    &--right {
+      margin-left: 0;
+    }
+    &--block {
+      width: 100%;
+    }
+    &--full-width {
+      overflow: hidden;
+    }
+  }
+
+  .svg--keyboard {
+    transform: scale(1);
+  }
+
+  .aside {
+    transform: translateX(0);
+  }
+
+  .footer__section {
+    padding: 1rem;
+  }
+}
